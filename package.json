@@ -5,6 +5,11 @@
     "build": "next build",
     "start": "next start"
   },
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check",
+    "build": "sanity build public -y"
+  },
   "dependencies": {
     "@3rdweb/hooks": "^1.8.0",
     "@3rdweb/sdk": "^1.36.11",
